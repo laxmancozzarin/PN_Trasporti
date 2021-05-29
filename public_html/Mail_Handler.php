@@ -3,7 +3,7 @@ function SendMail($username, $object, $body, $codice){
   require_once('PHPMailer/PHPMailerAutoload.php');
 
   $email = "pn_trasporti_esame@libero.it";
-  $password = 'EsameDiStato@123';
+  $password = 'EsameDiStato';
   $port = 465;
   $from = 'PN_Trasporti';
   $subject = 'Codice di verifica PN_Trasporti';
